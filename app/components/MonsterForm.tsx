@@ -18,7 +18,7 @@ const MonsterForm = ({onSubmit}: MonsterFormProps) => {
     <form onSubmit={handleSubmit} className={styles.form}>
       <div className={styles.formGroup}>
         <label htmlFor="description" className={styles.label}>dscription</label>
-        <input type="text" id={description} value={description} onChange={e => setDescription(e.target.value)} placeholder="example:cute" required className={styles.input} />
+        <input type="text" id="description" value={description} onChange={e => setDescription(e.target.value)} placeholder="example:cute" required className={styles.input} />
       </div>
 
       <div className={styles.formGroup}>
